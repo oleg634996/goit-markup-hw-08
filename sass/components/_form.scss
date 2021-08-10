@@ -77,12 +77,31 @@
   color: #2196f3;
   border-bottom: 1px solid #2196f3;
 }
-
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .agreement__text {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 25px;
+  }
+  .check_box {
+    left: 0px;
+    top: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .check_box {
+    left: 12px;
+    top: 0px;
+  }
+  .agreement__text {
+    margin-left: 36px;
+  }
+}
 .check_box {
   position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-55%);
   display: block;
   background-image: url(../img/ikon/Vector15.svg);
   width: 16px;
